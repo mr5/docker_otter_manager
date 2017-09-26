@@ -3,8 +3,9 @@ docker for otter_manager
 
 ## 环境变量
 
-* DOMAIN_NAME: 域名
-* PORT: 端口号
+* DOMAIN_NAME: web 控制台域名
+* HTTP_PORT: [可选] web 控制台端口号，默认为 `80`
+* COMM_PORT: [可选] node 通信端口号，默认为 `1099`
 * DB_HOST: 数据库地址
 * DB_PORT: [可选] 数据库端口号，默认值为 `3306`
 * DB_NAME: [可选] 数据库名称，默认值为 `otter`
