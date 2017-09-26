@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -z "$HTTP_PORT" ]; then
-    HTTP_PORT=8080
+    HTTP_PORT=80
 fi
 if [ -z "$COMM_PORT" ];then
 	COMM_PORT=1099
