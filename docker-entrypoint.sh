@@ -18,7 +18,7 @@ if [ -z "$ZK_TIMEOUT" ];then
 	ZK_TIMEOUT=60000
 fi
 
-
+echo '---------------- environments ----------------'
 echo DOMAIN_NAME: $DOMAIN_NAME
 echo HTTP_PORT: $HTTP_PORT
 echo COMM_PORT: $COMM_PORT

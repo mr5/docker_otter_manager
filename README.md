@@ -12,8 +12,8 @@ docker for otter_manager
 * DB_USER: 数据库用户名
 * DB_PASSWORD: 数据库密码
 * MAX_MEN: [可选] 进程最大可用内存，默认值为 `3072m`
-* ZK_DEFAULT: 默认的 zookepper ip:port
-* ZK_TIMEOUT: [可选] zookepper session 超时时间，单位是毫秒，默认值 `600000`
+* ZK_DEFAULT: 默认的 zookeeper ip:port
+* ZK_TIMEOUT: [可选] zookeeper session 超时时间，单位是毫秒，默认值 `600000`
 * SMTP_HOST: [可选] 
 * SMTP_USERNAME: [可选] 
 * SMTP_PASSWORD: [可选] 
