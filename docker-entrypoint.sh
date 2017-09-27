@@ -49,5 +49,6 @@ sed -ri "s/(otter.manager.monitor.email.username).*/\1 = $SMTP_USERNAME/" /opt/o
 sed -ri "s/(otter.manager.monitor.email.password).*/\1 = $SMTP_PASSWORD/" /opt/otter_manager/conf/otter.properties
 sed -ri "s/(otter.manager.monitor.email.smtp.port).*/\1 = $SMTP_PORT/" /opt/otter_manager/conf/otter.properties
 
+/opt/otter_manager/bin/stop.sh
 /opt/otter_manager/bin/startup.sh
 tail -f /opt/otter_manager/logs/manager.log & wait
