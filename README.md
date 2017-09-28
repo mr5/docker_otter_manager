@@ -1,6 +1,8 @@
 ## docker_otter_manager
 docker for otter_manager
 
+> see also: [docker for otter_node](https://github.com/mr5/docker_otter_node)
+
 ## 环境变量
 
 * DOMAIN_NAME: web 控制台域名
